@@ -212,7 +212,7 @@ $(function () {
 			$('.hot_area li').mouseover(function(){
 				if ($(this).index()==0) {return};
 				$('.hot_area li p').remove();
-				$(this).append('<p style="width:'+($(this).width()-24)+'px;height:'+($(this).width()-18)+'px;">'+arr[$(this).index()]+'</p>')
+				$(this).append('<p style="width:'+($(this).width()-24)+'px;height:'+($(this).height()-18)+'px;">'+arr[$(this).index()]+'</p>')
 			})
 		})()
 
