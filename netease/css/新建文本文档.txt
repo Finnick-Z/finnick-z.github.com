@@ -1,0 +1,5 @@
+.main_con .con .active  .nema{}
+.main_con .con .active  .learnCount{}
+.main_con .con .active  .provider{}
+.main_con .con .active  .categoryName{}
+.main_con .con .active  .description
