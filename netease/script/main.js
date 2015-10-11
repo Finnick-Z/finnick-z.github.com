@@ -298,7 +298,7 @@ window.onload = function(){
 						iNow++;
 						iNow%=banners.length;
 						fade();
-					},5000);
+					},4000);
 			}
 			autoPlay();
 			tab.onmouseenter= function(){
