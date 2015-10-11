@@ -273,6 +273,7 @@ window.onload = function(){
 			var btns = document.getElementById("btns").getElementsByTagName("li");
 			var iNow = 0;
 			var timer = null;
+			var timer0 = null;
 			function fade(){
 					for (var i = 0; i < banners.length; i++) {
 						banners[i].index = i;
@@ -291,23 +292,25 @@ window.onload = function(){
 				}
 
 			function autoPlay(){
+				clearInterval(timer);
 				fade();
 				timer = setInterval(function(){
 						iNow++;
 						iNow%=banners.length;
 						fade();
-					},3000);
+					},5000);
 			}
 			autoPlay();
-			tab.onmouseenter = function(){
+			tab.onmouseenter= function(){
 				clearInterval(timer);
+				clearInterval(timer0);
 			}
 			tab.onmouseleave = function(){
-				setTimeout(function(){
+				timer0 =setTimeout(function(){
 					iNow++;
 					iNow%=banners.length;
 					autoPlay();
-				},3000)
+				},5000)
 				
 			}
 			for (var i = 0; i < btns.length; i++) {
