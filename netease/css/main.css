@@ -119,7 +119,7 @@
 .foot ul{float: left; margin-left: 70px;}
 .foot li{height: 30px;line-height: 30px;}
 .foot li a{color: #abadb0;}
-.foot .on{font-size: 13px;line-height: 1em;}
+.foot .on{font-size: 13px;line-height: 1em;color:#fff;}
 .foot .sina{display: block; background: url(../images/icon.png) no-repeat 40px -78px;}
 .foot .active{text-decoration: underline;}
 
