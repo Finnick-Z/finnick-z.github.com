@@ -16,7 +16,7 @@ section .con_foot_pad{display: none;margin: 0;font-size: 0.6667rem; line-height:
 
 
 footer{height: 14.5%;}
-footer .btn{width: 5.8667rem;height: 1.2889rem;line-height: 1.2889rem ; margin: 0 2.5333rem 0.1333rem 0;font-size: 0.5333rem;text-align: center; background: url(../img/btn_bg1.png) no-repeat;background-size: 5.8667rem 1.2889rem; color: #FFFFFF; border-radius:0.4889rem;}
+footer .btn{width: 5.8667rem;height: 1.2889rem;line-height: 1.2889rem ; margin: 0 2.5333rem 0.1333rem 0;font-size: 0.5333rem;text-align: center; background: url(../img/btn_bg1.png) no-repeat,url(../img/btn_bg2.png) no-repeat;background-size: 5.8667rem 1.2889rem; color: #FFFFFF; border-radius:0.4889rem;}
 footer .shade{width: 5.8667rem;height: 0.6889rem;margin-left: 0;background: url(../img/btn_shade.png) no-repeat;background-size:  5.8667rem 0.6889rem; }
 
 footer .link{display: inline-block;width: 5.8667rem;margin-left: 2.5778rem;border-radius:1.3333rem/0.8889rem ;text-decoration: none;}
