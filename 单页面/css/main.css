@@ -1,0 +1,27 @@
+
+html{overflow: auto;height: 100%;}
+body{height: 100%; margin: 0;padding-left: 2.5111rem;padding-right:2.5111rem;background: #e5e5e5;font-family:"黑体";}
+img{margin: 0;padding: 0;}
+a,img,button{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+header{height:17.5%;}
+header .logo{margin-left:4.2rem;padding-top: 1.2222rem;}
+header .logo,header .logo img{width: 2.5778rem;height: 2.5778rem;}
+
+section{height: 68.0%;}
+section .con_h2{margin: 0; font:900 0.93333rem/1.0667rem arial;text-align: center; color: #535353;}
+section .cno_h3{margin: 0;font-size: 0.6667rem ;line-height: 1.3333rem;text-align: center;color: #535353;}
+section .con_img{width: 8.1556rem ;height: 8.4444rem; margin-left: 1.1556rem;margin-top: 0.6667rem;margin-bottom: 0.6667rem;}
+section .con_foot{margin: 0;font-size: 0.6667rem; line-height: 1.6rem;text-align: center;color: #535353;}
+section .con_foot_pad{display: none;margin: 0;font-size: 0.6667rem; line-height: 1.6rem;text-align: center;color: #535353;}
+
+
+footer{height: 14.5%;}
+footer .btn{width: 5.8667rem;height: 1.2889rem;line-height: 1.2889rem ; margin: 0 2.5333rem 0.1333rem 0;font-size: 0.5333rem;text-align: center; background: url(../img/btn_bg1.png) no-repeat;background-size: 5.8667rem 1.2889rem; color: #FFFFFF; border-radius:0.4889rem;}
+footer .shade{width: 5.8667rem;height: 0.6889rem;margin-left: 0;background: url(../img/btn_shade.png) no-repeat;background-size:  5.8667rem 0.6889rem; }
+footer .link:active .btn{background-image: url(../img/btn_bg2.png);}
+footer .link{display: inline-block;width: 5.8667rem;margin-left: 2.5778rem;border-radius:1.3333rem/0.8889rem ;text-decoration: none;}
+
+@media screen and (min-width: 768px) {
+	section .con_foot{display: none;}
+	section .con_foot_pad{display: block;}
+}
